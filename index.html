@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <title></title>
+
 </head>
 <body>
   <div class="row">
@@ -14,14 +15,16 @@
       </div>
 
       <div class="posts">
+        <!--<div class="comments">-->
+
+        <!--</div>-->
       </div>
 
       <form class="beer-form">
         <h3>Add a New Post</h3>
 
         <div class="form-group">
-          <input type="text" id="post-name" class="form-control" placeholder="Post Text">
-          </input>
+          <input type="text" id="post-name" class="form-control" placeholder="Post Text" />
         </div>
 
         <button class="btn btn-primary add-post">Post</button>
